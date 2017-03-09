@@ -1,0 +1,79 @@
+.mark{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .4;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    z-index: 1001;
+    display: none;
+}
+.share-dialog{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 170px;
+    margin:-85px 0 0 -150px;
+    background: #fff;
+    z-index: 1002;
+}
+.share-dialog .share-close{
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    cursor: pointer;
+    background: url("dialog-close.png") no-repeat;
+}
+.share-dialog .share-dialog-title{
+    height: 30px;
+    line-height: 40px;
+    text-indent: 15px;
+    background: #eee;
+}
+.share-dialog .share-dialog-cont{
+    padding:8px 10px;
+    font-size: 14px;
+}
+.share-dialog {
+    display: none;
+}
+.share-platform{
+    clear: both;
+    margin-top: 10px;
+}
+.share-platform .share-platform-l{
+    float: left;
+    width: 77px;
+}
+.share-platform .share-platform-r{
+    float: left;
+    width: 310px;
+    margin-top: 3px;
+}
+.share-platform .bds_weixin{
+    background-image: url('css-bg.png');
+    background-position: -13px -7px !important;
+}
+.share-platform .bds_tsina{
+    background-image: url('css-bg.png');
+    background-position: -57px -7px !important;
+}
+.share-platform .bds_sqq{
+    background-image: url('css-bg.png');
+    background-position: -101px -7px !important;
+}
+.share-platform .bds_qzone{
+    background-image: url('css-bg.png');
+    background-position: -146px -7px !important;
+}
+.share-platform .share-platform-text{
+    color: #aaa;
+    margin-top: 5px;
+}
